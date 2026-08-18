@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Page</title>
+    
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("https://www.justahotels.com/wp-content/uploads/2023/07/Manali-Travel-Guide.jpg")
+    no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+}
+
+.overlay {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.header-box {
+    width: 300px;
+    padding: 20px;
+
+  
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    color: white;
+
+    border-radius: 12px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    width: 220px;
+    height: 120px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    color: white;
+
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.footer-box:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.15); 
+}
+    </style>
+</head>
+<body>
+
+    <div class="overlay">
+
+        <header>
+            <div class="header-box">
+                Box 1
+            </div>
+        </header>
+
+        <main></main>
+
+        <footer>
+            <div class="footer-box">Box 2</div>
+            <div class="footer-box">Box 3</div>
+            <div class="footer-box">Box 4</div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
