@@ -10,7 +10,34 @@ It emphasizes Easy to use navigation, responsive design, visual consistency, acc
 and fast performance to ensure users can easily achieve their goals while enjoying a smooth and satisfying experience.
 Caption-Simplifying user journeys with thoughtful and efficient interfaces
 
-React is a popular JavaScript library used for building fast and interactive user interfaces, especially for single-page applications. 
+React is a popular JavaScript library used for building fast and interactive user interfaces
+especially for single-page applications. 
 It follows a component-based architecture, allowing developers to create reusable UI elements. 
-React improves performance through the Virtual DOM and makes frontend development more efficient, scalable, and easy to maintain.
+React improves performance through the Virtual DOM and makes frontend development more efficient, scalable, 
+and easy to maintain.
 Caption-Building dynamic and reusable user interfaces with ease
+
+JS(JavaScripts) Adds interactivity to websites.
+Responds to user actions like clicks.
+Updates content dynamically.
+Validates form inputs.
+Creates animations and effects.
+Runs directly in web browsers.
+HTML creates the structure and CSS adds design, JavaScript adds functionality.
+Caption-The Language of Interactive Web Pages
+
+HTML ( HyperText Markup Language).
+It is used to create the structure of web pages.
+HTML uses tags and elements to organize content.
+It defines headings, paragraphs, images, links, tables, and forms.
+HTML works together with CSS for styling and JavaScript for interactivity.
+It is the basic building block of web development.
+Browsers like Chrome, Edge, and Firefox render HTML pages.
+Caption-The First Step Toward Building Websites
+
+CSS (Cascading Style Sheets) is used to style and design web pages. 
+It controls colors, fonts, spacing, layouts, animations, and responsiveness. 
+CSS improves user experience by making websites visually appealing and adaptable to different devices. 
+It works alongside HTML to create modern, interactive, and professional frontend interfaces
+Caption-CSS brings life to HTML by creating responsive and user-friendly web interfaces.
+
